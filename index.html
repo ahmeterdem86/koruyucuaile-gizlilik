@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KoruyucuAile – Gizlilik Politikası</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.7; }
+    header { background: #4F46E5; color: #fff; padding: 32px 24px; text-align: center; }
+    header h1 { font-size: 1.8rem; font-weight: 700; }
+    header p { margin-top: 6px; opacity: 0.85; font-size: 0.95rem; }
+    .badge { display: inline-block; background: rgba(255,255,255,0.2); border-radius: 20px; padding: 4px 14px; font-size: 0.8rem; margin-top: 10px; }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+    .updated { font-size: 0.82rem; color: #64748b; margin-bottom: 28px; }
+    h2 { font-size: 1.1rem; font-weight: 700; color: #4F46E5; margin: 28px 0 10px; border-left: 4px solid #4F46E5; padding-left: 12px; }
+    p, li { font-size: 0.95rem; color: #334155; margin-bottom: 8px; }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.9rem; }
+    th { background: #EEF2FF; color: #3730A3; text-align: left; padding: 10px 12px; }
+    td { padding: 10px 12px; border-bottom: 1px solid #e2e8f0; }
+    tr:last-child td { border-bottom: none; }
+    .box { background: #F0FDF4; border: 1px solid #86EFAC; border-radius: 10px; padding: 14px 16px; margin: 12px 0; }
+    .box.warn { background: #FEF3C7; border-color: #FCD34D; }
+    .box.blue { background: #EEF2FF; border-color: #A5B4FC; }
+    footer { text-align: center; padding: 24px; font-size: 0.82rem; color: #94a3b8; border-top: 1px solid #e2e8f0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🛡️ KoruyucuAile</h1>
+  <p>Gizlilik Politikası &amp; KVKK Aydınlatma Metni</p>
+  <span class="badge">KVKK 6698 Sayılı Kanun Kapsamında</span>
+</header>
+
+<main>
+  <p class="updated">Son güncelleme: Haziran 2026</p>
+
+  <h2>1. Veri Sorumlusu</h2>
+  <p>6698 Sayılı Kişisel Verilerin Korunması Kanunu uyarınca veri sorumlusu <strong>KoruyucuAile</strong> uygulamasıdır.</p>
+  <p>İletişim: <a href="mailto:gizlilik@koruyucuaile.com">gizlilik@koruyucuaile.com</a></p>
+
+  <h2>2. Toplanan Veriler</h2>
+  <table>
+    <tr><th>Veri Türü</th><th>Kapsam</th><th>Amaç</th></tr>
+    <tr><td>E-posta adresi</td><td>Ebeveyn</td><td>Hesap oluşturma ve iletişim</td></tr>
+    <tr><td>Cihaz token'ı (FCM)</td><td>Ebeveyn &amp; Çocuk</td><td>Anlık bildirim gönderimi</td></tr>
+    <tr><td>GPS Konum</td><td>Çocuk cihazı</td><td>Güvenli alan takibi ve acil durum</td></tr>
+    <tr><td>Uygulama kullanım verisi</td><td>Çocuk cihazı</td><td>İçerik filtreleme ve raporlama</td></tr>
+    <tr><td>İçerik uyarı kaydı</td><td>Çocuk cihazı</td><td>Uygunsuz içerik tespiti bildirimi</td></tr>
+    <tr><td>Ödeme bilgileri</td><td>Ebeveyn</td><td>Lisans işlemleri (Google Play Billing)</td></tr>
+  </table>
+
+  <h2>3. Veri Saklama Süreleri (KVKK md. 7)</h2>
+  <table>
+    <tr><th>Veri</th><th>Süre</th></tr>
+    <tr><td>📍 GPS Konum verileri</td><td>30 gün</td></tr>
+    <tr><td>⚠️ İçerik uyarı kayıtları</td><td>90 gün</td></tr>
+    <tr><td>📊 Uygulama kullanım raporları</td><td>90 gün</td></tr>
+    <tr><td>👤 Hesap verileri</td><td>Hesap silinene kadar</td></tr>
+  </table>
+  <p>Hesabınızı sildiğinizde tüm kişisel verileriniz 30 gün içinde sistemden kaldırılır.</p>
+
+  <h2>4. Veri Paylaşımı</h2>
+  <div class="box">
+    🚫 Kişisel verileriniz üçüncü taraflarla asla paylaşılmaz, satılmaz veya kiralanmaz.
+  </div>
+  <p>Yalnızca aşağıdaki hizmet sağlayıcılarla sınırlı veri aktarımı yapılır:</p>
+  <ul>
+    <li><strong>Google Firebase</strong> — veri depolama ve kimlik doğrulama (ABD, AB Veri Kalkanı)</li>
+    <li><strong>Google Play Billing</strong> — ödeme işlemleri (Google LLC)</li>
+    <li>Yasal zorunluluk durumunda resmi makamlar</li>
+  </ul>
+
+  <h2>5. Çocuk Gizliliği</h2>
+  <div class="box blue">
+    Bu uygulama, velisi/koruyucusu tarafından yetkilendirilen reşit olmayan bireyleri
+    korumak amacıyla geliştirilmiştir. Çocuğun verileri yalnızca ebeveynine iletilir;
+    ticari amaçla işlenmez ve üçüncü taraflarla paylaşılmaz.
+  </div>
+  <p>Çocuk cihazında uygulama çalışırken bildirim çubuğunda <strong>"KoruyucuAile Koruma Aktif"</strong> bildirimi her zaman görünür. Bu bildirim, izlemenin şeffaf biçimde yapıldığını gösterir.</p>
+
+  <h2>6. İzinler ve Kullanım Amacı</h2>
+  <table>
+    <tr><th>İzin</th><th>Neden Gerekli</th></tr>
+    <tr><td>Konum (Arka Plan)</td><td>Ebeveyne anlık konum bildirimi ve güvenli alan uyarısı</td></tr>
+    <tr><td>Bildirim Erişimi</td><td>Mesajlaşma uygulamalarında içerik filtresi</td></tr>
+    <tr><td>Erişilebilirlik Servisi</td><td>SOS ses tuşu ve web sitesi koruması</td></tr>
+    <tr><td>Kullanım İstatistikleri</td><td>Uygulama bazlı ekran süresi raporu</td></tr>
+    <tr><td>Cihaz Yöneticisi</td><td>Çocuğun uygulamayı yetkisiz kaldırmasını engelleme</td></tr>
+  </table>
+
+  <h2>7. Veri Güvenliği</h2>
+  <ul>
+    <li>Tüm veriler TLS 1.3 ile şifreli aktarılır</li>
+    <li>Firebase güvenlik kuralları ile yetkisiz erişim engellenir</li>
+    <li>Ödeme bilgileri uygulama içinde saklanmaz; Google Play Billing altyapısında işlenir</li>
+  </ul>
+
+  <h2>8. KVKK Kapsamında Haklarınız (md. 11)</h2>
+  <ul>
+    <li>Verilerinizin işlenip işlenmediğini öğrenme</li>
+    <li>İşlenen verilere erişim ve kopyasını talep etme</li>
+    <li>Hatalı verilerin düzeltilmesini isteme</li>
+    <li>Verilerin silinmesini isteme ("unutulma hakkı")</li>
+    <li>Otomatik işleme sonucu aleyhine oluşan kararlara itiraz etme</li>
+  </ul>
+  <p>Başvuru için: <a href="mailto:kvkk@koruyucuaile.com">kvkk@koruyucuaile.com</a></p>
+
+  <h2>9. İletişim</h2>
+  <p>Gizlilik Politikası hakkındaki sorularınız için:<br/>
+  📧 <a href="mailto:gizlilik@koruyucuaile.com">gizlilik@koruyucuaile.com</a></p>
+</main>
+
+<footer>
+  © 2026 KoruyucuAile · KVKK 6698 Sayılı Kanun kapsamında hazırlanmıştır
+</footer>
+
+</body>
+</html>
